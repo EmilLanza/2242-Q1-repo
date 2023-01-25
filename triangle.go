@@ -6,5 +6,13 @@ type triangle struct{
 }
 
 func (t triangle)Area() (float64, float64) {
-	return t.base * t.hight / 2
+	var a int
+	a = t.base * t.hight / 2
+	return a
+}
+
+func (t triangle)perimeter() (float64, float64){
+	var p int
+	p = t.base + t.hight + t.hight
+	return p
 }
