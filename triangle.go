@@ -5,6 +5,6 @@ type triangle struct{
 	hight float64
 }
 
-func (t triangle) (float64, float 64) {
-	return t.base, t.hight
+func (t triangle)Area() (float64, float64) {
+	return t.base * t.hight / 2
 }
