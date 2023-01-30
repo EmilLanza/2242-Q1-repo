@@ -11,9 +11,9 @@ func perimeter(side float64) float64 {
 }
 
 func main(){
-	var sideOftriangle, answer float64
+	var sideOftriangle, firstanswer, secondanswer float64
 	sideOftriangle = 5
-	answer = Area(sideOftriangle)
-	answer = perimeter(sideOftriangle)
-	fmt.Println(answer)
+	firstanswer = Area(sideOftriangle)
+	secondanswer = perimeter(sideOftriangle)
+	fmt.Println("Area", firstanswer, "Perimeter", secondanswer)
 }
