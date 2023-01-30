@@ -3,15 +3,15 @@ package main
 import "testing"
 
 func TestArea(t *testing.T){
-	got := Area(side)
-	if got != 12.5 {
-	  t.Error("Expexted 28.26")
+	got := Area(5)
+	if got != 12.5{
+	t.Error("Expected 12.5")
 	}
 }
 
-func Testperimeter(t *testing.T){
-	got := perimeter(side)
+func TestPerimeter(t *testing.T){
+	got := perimeter(5)
 	if got != 15{
-		t.Error("Expexted 43.96")
+	t.Error("Expected 15")
 	}
 }

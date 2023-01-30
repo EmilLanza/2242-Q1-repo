@@ -1,12 +1,11 @@
 package main
-
 import ("fmt")
 
-func Area(side float64) float64 {
+func Area(side float64) float64{
 	return (side * side) / 2
 }
 
-func perimeter(side float64) float64 {
+func perimeter(side float64) float64{
 	return (side + side + side)
 }
 
@@ -15,5 +14,5 @@ func main(){
 	sideOftriangle = 5
 	firstanswer = Area(sideOftriangle)
 	secondanswer = perimeter(sideOftriangle)
-	fmt.Println("Area", firstanswer, "Perimeter", secondanswer)
+	fmt.Println("area", firstanswer, "perimeter", secondanswer)
 }
